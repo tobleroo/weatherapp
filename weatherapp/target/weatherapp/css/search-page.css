@@ -1,0 +1,52 @@
+body{
+    background-color: rgb(68, 59, 59);
+    color: beige;
+}
+
+.search-box{
+    margin-top: 30vh;
+    margin-left: 40vw;
+    width: 30vw;
+    height: 30vh;
+    position: absolute;
+    border: solid 3px lightblue;
+    border-radius: 15px;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-box{
+    margin: 1rem;
+}
+
+#goBtn{
+    padding: .5rem;
+    background-color: green;
+}
+
+.cookies-modal-box{
+    background-color: rgb(203, 203, 33);
+    width: 60vw;
+    height: 50vh;
+    border: red dotted 3px;
+    margin-top: 25vh;
+    margin-left: 20vw;
+    position: absolute;
+    z-index: 2;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#acceptBtn{
+    background-color: green;
+    padding: 1rem;
+}
+
+#declineBtn{
+    background-color: red;
+    padding: 1rem;
+}

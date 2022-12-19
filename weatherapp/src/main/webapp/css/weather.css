@@ -1,0 +1,34 @@
+body{
+    background-color: rgb(56, 56, 197);
+    color: beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.location-box{
+    display: flex;
+    flex-flow: row nowrap;
+    border-bottom: solid black 2px;
+}
+
+.data-box{
+    font-size: larger;
+}
+
+.data-box p{
+    padding-bottom: .1rem;
+    border-bottom: solid blue 1px;
+    margin-bottom: .1rem;
+}
+
+.history-box{
+    display: flex;
+    flex-flow:  column nowrap;
+}
+
+.each-search-box{
+    display: flex;
+    flex-flow: row nowrap;
+    border: solid black 2px;
+}
